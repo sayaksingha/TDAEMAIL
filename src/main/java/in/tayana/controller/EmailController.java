@@ -1,7 +1,12 @@
 package in.tayana.controller;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.RequestEntity;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -15,23 +20,33 @@ public class EmailController {
 	EmailServices services;
 	
 	@PostMapping("/sendEmail")
-	public RequestEntity<?> sendEmail(@RequestBody EmailRequest model) {
+	public ResponseEntity<Map<String, Object>> sendEmail(@RequestBody EmailRequest model) {
+		Map<String, Object> map =new HashMap<String, Object>();
 		try {
 			System.out.println(model);
 			if(services.sendEmail(model)) {
 				//log for success
 				System.out.println("EmailController.sendEmail()");
-				//Response for success
+				map.put("status","success");
+				map.put("statusCode","0");
+				map.put("errorCode","0");
 			}
 			else {
-				System.out.println("Emai");
+				map.put("status","failure");
+				map.put("statusCode","1");
+				map.put("errorCode","");
+				map.put("description", "no valid email address for To & Bcc");
+				return ResponseEntity.internalServerError().body(map);
 			}
 		} catch (Exception e) {
-			//log for failure
-			//Response for failure
-			e.printStackTrace();
+			map.put("status","failure");
+			map.put("statusCode","1");
+			map.put("errorCode",e.hashCode());
+			map.put("description", e.getMessage());
+			return ResponseEntity.internalServerError().body(map);
+
 		}
-		return null;
+		return ResponseEntity.ok().body(map);
 	}
 
 }

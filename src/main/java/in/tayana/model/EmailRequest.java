@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class EmailRequest {
-    private int report_id;
+    private Integer report_id;
     private String from;
     private String to;
     private String cc;
