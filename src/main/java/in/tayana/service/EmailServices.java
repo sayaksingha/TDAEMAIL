@@ -1,10 +1,10 @@
 package in.tayana.service;
 
+import org.apache.logging.log4j.ThreadContext;
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import org.slf4j.MDC;
 
-import org.apache.logging.log4j.LogManager;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
@@ -22,65 +22,64 @@ import jakarta.mail.MessagingException;
 import jakarta.mail.internet.MimeMessage;
 
 @Service
-
 public class EmailServices {
 
 	@Autowired
 	private JavaMailSender emailSender;
 
-	public static Logger logger = LogManager.getLogger(EmailServices.class);
+
+	  private static final Logger requestLogger = LogManager.getLogger(EmailServices.class);
 
 
 	public boolean sendEmail(EmailRequest request) throws Exception {
 		// Generating a unique request ID
-		Logger requestLogger = LogManager.getLogger(request.getReport_id());
-		
-		MDC.put("reportId", request.getReport_id().toString());
+		ThreadContext.put("reportId", request.getReport_id().toString());
+
 		MimeMessage mimeMessage = emailSender.createMimeMessage();
-		requestLogger.debug("Request started");
+		requestLogger.info("Request started");
 
 		try {
 			MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
 
 			// Set the 'To' recipients
-			requestLogger.debug("verifying To list");
+			requestLogger.info("verifying To list");
 			List<String> listForTo = EmailServices.HalperClass.emailValidation(request.getTo(), 1);
 			if (listForTo == null || listForTo.isEmpty()) {
-				requestLogger.error("No valid 'To' email addresses provided.");
-				requestLogger.debug("verifying Bcc list");
+				requestLogger.warn("No valid 'To' email addresses provided.");
+				requestLogger.info("verifying Bcc list");
 				List<String> listForBcc = EmailServices.HalperClass.emailValidation(request.getBcc(), 3);
 				if (listForBcc == null || listForBcc.isEmpty()) {
-					requestLogger.error("No valid 'Bcc' email addresses provided.");
+					requestLogger.warn("No valid 'Bcc' email addresses provided.");
 					return false;
 				} else {
-					requestLogger.debug("Set all 'Bcc' recipients");
+					requestLogger.info("Set all 'Bcc' recipients");
 					helper.setBcc(listForBcc.toArray(new String[0]));
 					
 				}
 				
 			} else {
-				requestLogger.debug("Set all 'To' recipients");
+				requestLogger.info("Set all 'To' recipients");
 				helper.setTo(listForTo.toArray(new String[0]));
 				
 				// Set the 'Bcc' recipients
-				requestLogger.debug("verifying Bcc list");
+				requestLogger.info("verifying Bcc list");
 				List<String> listForBcc = EmailServices.HalperClass.emailValidation(request.getBcc(), 3);
 				if (listForBcc == null) {
 					requestLogger.error("No valid 'Bcc' email addresses provided.");
-					return false;
+					
 				} else {
-					requestLogger.debug("Set all 'Bcc' recipients");
+					requestLogger.info("Set all 'Bcc' recipients");
 					helper.setBcc(listForBcc.toArray(new String[0]));
 				}
 			}
 
 			// Set the 'Cc' recipients
-			requestLogger.debug("verifying Cc list");
+			requestLogger.info("verifying Cc list");
 			List<String> listForCc = EmailServices.HalperClass.emailValidation(request.getCc(), 2);
 			if (listForCc == null||listForCc.isEmpty()) {
 				requestLogger.warn("No valid 'Cc' email addresses provided.");
 			} else {
-				requestLogger.debug("Set all 'Cc' recipients");
+				requestLogger.info("Set all 'Cc' recipients");
 				helper.setCc(listForCc.toArray(new String[0]));
 			}
 
@@ -93,7 +92,7 @@ public class EmailServices {
 
 			// attachments
 			if (request.getAttachment() != null) {
-				requestLogger.debug("Checking all attachments");
+				requestLogger.info("Checking all attachments");
 				for (String attachmentPath : request.getAttachment()) {
 					File file = new File(attachmentPath);
 					if (file.exists()) {
@@ -103,7 +102,7 @@ public class EmailServices {
 					}
 				}
 			} else {
-				requestLogger.debug("No attachments provided");
+				requestLogger.info("No attachments provided");
 			}
 
 			// Send the email
@@ -116,8 +115,12 @@ public class EmailServices {
 			requestLogger.error("Error in email sending process: " +e.getMessage());
 			throw e;
 		}
+		finally {
+			ThreadContext.remove("request_id");
 
-		requestLogger.debug("Request completed");
+		}
+
+		requestLogger.info("Request completed");
 		return true;
 	}
 
@@ -137,7 +140,8 @@ public class EmailServices {
 				Matcher matcher = pattern.matcher(email);
 				boolean flag = matcher.matches();
 				if (!flag) {
-					logger.warn(email + " is invalid");
+					System.out.println("EmailServices.HalperClass.emailValidation()");
+					requestLogger.info(email+" is invalid");
 				}
 				return flag;
 			}).collect(Collectors.toList());
