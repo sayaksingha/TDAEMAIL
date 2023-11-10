@@ -1,0 +1,14 @@
+13:39:36,331 2794568 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Request started
+13:39:36,339 2794576 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - verifying To list
+13:39:36,340 2794577 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+13:39:36,340 2794577 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - verifying Bcc list
+13:39:36,340 2794577 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  -  is invalid
+13:39:36,340 2794577 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+13:39:36,340 2794577 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - verifying Cc list
+13:39:36,343 2794580 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  -  is invalid
+13:39:36,343 2794580 [http-nio-9090-exec-4] WARN  com.tmt.service.EmailService  - No valid 'Cc' email addresses provided.
+13:39:36,343 2794580 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Checking all attachments
+13:39:36,343 2794580 [http-nio-9090-exec-4] WARN  com.tmt.service.EmailService  - Attachment file does not exist: /home/wtda/reports/Transd_2023-10-04_pid1_Ext_03-10-2023-WMC_KIOSK_SERVICE.csv
+13:39:40,139 2798376 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Email successfully sent
+13:39:40,139 2798376 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Request completed
+13:39:40,140 2798377 [http-nio-9090-exec-4] INFO  EVR.Success  - 2023/11/10 13:39:36|1000|0|2000|120||sayaksingha987@gmail.cm|||Email from Server|I am server|[/home/wtda/reports/Transd_2023-10-04_pid1_Ext_03-10-2023-WMC_KIOSK_SERVICE.csv]|true

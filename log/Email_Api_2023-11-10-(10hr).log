@@ -1,0 +1,33 @@
+10:33:35,023 150522011 [RMI TCP Connection(684)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin  - Application shutdown requested.
+10:35:35,574 0    [main] INFO  com.tmt.EmalApiApplication  - Starting EmalApiApplication using Java 17.0.7 on SAYAKSINGHA with PID 14984 (C:\Users\Sayak Singha\Downloads\EmalApi\target\classes started by Sayak Singha in C:\Users\Sayak Singha\Downloads\EmalApi)
+10:35:35,577 3    [main] INFO  com.tmt.EmalApiApplication  - No active profile set, falling back to 1 default profile: "default"
+10:35:36,420 846  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat initialized with port(s): 8080 (http)
+10:35:36,613 1039 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 985 ms
+10:35:36,665 1091 [main] WARN  org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emailController': Unsatisfied dependency expressed through field 'serv'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'emailService': Unsatisfied dependency expressed through field 'emailSender'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.mail.javamail.JavaMailSender' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+10:35:36,681 1107 [main] INFO  org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener  - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+10:35:36,702 1128 [main] ERROR org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter  - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field emailSender in com.tmt.service.EmailService required a bean of type 'org.springframework.mail.javamail.JavaMailSender' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.mail.javamail.JavaMailSender' in your configuration.
+
+10:35:59,641 0    [main] INFO  com.tmt.EmalApiApplication  - Starting EmalApiApplication using Java 17.0.7 on SAYAKSINGHA with PID 4796 (C:\Users\Sayak Singha\Downloads\EmalApi\target\classes started by Sayak Singha in C:\Users\Sayak Singha\Downloads\EmalApi)
+10:35:59,643 2    [main] INFO  com.tmt.EmalApiApplication  - No active profile set, falling back to 1 default profile: "default"
+10:36:00,503 862  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat initialized with port(s): 9090 (http)
+10:36:00,629 988  [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 928 ms
+10:36:01,116 1475 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat started on port(s): 9090 (http) with context path ''
+10:36:01,143 1502 [main] INFO  com.tmt.EmalApiApplication  - Started EmalApiApplication in 1.835 seconds (JVM running for 2.568)

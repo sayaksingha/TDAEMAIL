@@ -1,0 +1,13 @@
+17:43:56,775 3543763 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Initializing Servlet 'dispatcherServlet'
+17:43:56,777 3543765 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Completed initialization in 0 ms
+17:43:56,959 3543947 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Request started
+17:43:56,976 3543964 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - verifying To list
+17:43:56,978 3543966 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Set all 'To' recipients
+17:43:56,980 3543968 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - verifying Bcc list
+17:43:56,982 3543970 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Set all 'Bcc' recipients
+17:43:56,982 3543970 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - verifying Cc list
+17:43:56,982 3543970 [http-nio-9090-exec-1] WARN  com.tmt.service.EmailServices  - No valid 'Cc' email addresses provided.
+17:43:56,982 3543970 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Checking all attachments
+17:44:01,778 3548766 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Email successfully sent
+17:44:01,778 3548766 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Request completed
+17:44:01,779 3548767 [http-nio-9090-exec-1] INFO  EVR.success  - 2023/11/08 17:43:56|1000|0|2000|120|sayaksingha123@gmail.com|dhrubosinha2@gmail.com|sayaksingha987@gmail.com|no email for Cc|Success Test Case 3|hlo!|[C:\Users\Sayak Singha\Pictures\Screenshot 2023-09-25 162552.png]|true

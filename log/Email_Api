@@ -1,0 +1,25 @@
+14:18:08,955 5107192 [http-nio-9090-exec-8] INFO  com.tmt.service.EmailService  - Request started
+14:18:08,966 5107203 [http-nio-9090-exec-8] INFO  com.tmt.service.EmailService  - verifying To list
+14:18:08,966 5107203 [http-nio-9090-exec-8] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+14:18:08,966 5107203 [http-nio-9090-exec-8] INFO  com.tmt.service.EmailService  - verifying Bcc list
+14:18:08,966 5107203 [http-nio-9090-exec-8] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+14:18:08,966 5107203 [http-nio-9090-exec-8] INFO  com.tmt.service.EmailService  - verifying Cc list
+14:18:08,967 5107204 [http-nio-9090-exec-8] INFO  com.tmt.service.EmailService  -  is invalid
+14:18:08,967 5107204 [http-nio-9090-exec-8] WARN  com.tmt.service.EmailService  - No valid 'Cc' email addresses provided.
+14:18:08,967 5107204 [http-nio-9090-exec-8] INFO  com.tmt.service.EmailService  - Checking all attachments
+14:18:08,967 5107204 [http-nio-9090-exec-8] WARN  com.tmt.service.EmailService  - Attachment file does not exist: /home/wtda/reports/Transd_2023-10-04_pid1_Ext_03-10-2023-WMC_KIOSK_SERVICE.csv
+14:18:12,703 5110940 [http-nio-9090-exec-8] INFO  com.tmt.service.EmailService  - Email successfully sent
+14:18:12,704 5110941 [http-nio-9090-exec-8] INFO  com.tmt.service.EmailService  - Request completed
+14:18:12,704 5110941 [http-nio-9090-exec-8] INFO  EVR.Success  - 2023/11/10 14:18:08|1000|0|2000|120||sayak.s@tayana.in|amogh.nb@tayana.in||Email from Server18|I am server|[/home/wtda/reports/Transd_2023-10-04_pid1_Ext_03-10-2023-WMC_KIOSK_SERVICE.csv]|true
+14:19:45,023 5203260 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Request started
+14:19:45,024 5203261 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying To list
+14:19:45,024 5203261 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+14:19:45,024 5203261 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Bcc list
+14:19:45,025 5203262 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+14:19:45,025 5203262 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Cc list
+14:19:45,025 5203262 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'Cc' recipients
+14:19:45,025 5203262 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Checking all attachments
+14:19:45,026 5203263 [http-nio-9090-exec-1] WARN  com.tmt.service.EmailService  - Attachment file does not exist: /home/wtda/reports/Transd_2023-10-04_pid1_Ext_03-10-2023-WMC_KIOSK_SERVICE.csv
+14:19:49,214 5207451 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Email successfully sent
+14:19:49,214 5207451 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Request completed
+14:19:49,214 5207451 [http-nio-9090-exec-1] INFO  EVR.Success  - 2023/11/10 14:19:45|1000|0|2000|120||sayak.s@tayana.in|amogh.nb@tayana.in|sayaksingha987@gmail.com|Email from Server18|I am server|[/home/wtda/reports/Transd_2023-10-04_pid1_Ext_03-10-2023-WMC_KIOSK_SERVICE.csv]|true

@@ -1,0 +1,18 @@
+15:43:58,412 3705887 [http-nio-9090-exec-2] INFO  com.tmt.service.EmailServices  - Request started
+15:43:58,414 3705889 [http-nio-9090-exec-2] INFO  com.tmt.service.EmailServices  - verifying To list
+15:43:58,415 3705890 [http-nio-9090-exec-2] INFO  com.tmt.service.EmailServices  - Set all 'To' recipients
+15:43:58,415 3705890 [http-nio-9090-exec-2] INFO  com.tmt.service.EmailServices  - verifying Bcc list
+15:43:58,415 3705890 [http-nio-9090-exec-2] INFO  com.tmt.service.EmailServices  - Set all 'Bcc' recipients
+15:43:58,415 3705890 [http-nio-9090-exec-2] INFO  com.tmt.service.EmailServices  - verifying Cc list
+15:43:58,510 3705985 [http-nio-9090-exec-2] WARN  com.tmt.service.EmailServices  - No valid 'Cc' email addresses provided.
+15:43:58,510 3705985 [http-nio-9090-exec-2] INFO  com.tmt.service.EmailServices  - Checking all attachments
+15:44:02,216 3709691 [http-nio-9090-exec-2] INFO  com.tmt.service.EmailServices  - Email successfully sent
+15:44:02,216 3709691 [http-nio-9090-exec-2] INFO  com.tmt.service.EmailServices  - Request completed
+15:44:02,216 3709691 [http-nio-9090-exec-2] INFO  EVR.success  - 2023/11/08 15:43:58|1000|0|2000|120|sayaksingha123@gmail.com|dhrubosinha2@gmail.com|sayaksingha987@gmail.com|no email for Cc|Success Test Case 3|hlo!|[C:\Users\Sayak Singha\Pictures\Screenshot 2023-09-25 162552.png]|true
+15:45:20,660 3788135 [RMI TCP Connection(10)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin  - Application shutdown requested.
+15:45:37,307 0    [main] INFO  com.tmt.EmalApiApplication  - Starting EmalApiApplication using Java 17.0.7 on SAYAKSINGHA with PID 17576 (C:\Users\Sayak Singha\Downloads\EmalApi\target\classes started by Sayak Singha in C:\Users\Sayak Singha\Downloads\EmalApi)
+15:45:37,309 2    [main] INFO  com.tmt.EmalApiApplication  - No active profile set, falling back to 1 default profile: "default"
+15:45:38,425 1118 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat initialized with port(s): 9090 (http)
+15:45:38,552 1245 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 1184 ms
+15:45:38,988 1681 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat started on port(s): 9090 (http) with context path ''
+15:45:38,999 1692 [main] INFO  com.tmt.EmalApiApplication  - Started EmalApiApplication in 2.067 seconds (JVM running for 2.938)

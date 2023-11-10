@@ -1,0 +1,20 @@
+16:43:55,342 3498035 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Initializing Servlet 'dispatcherServlet'
+16:43:55,350 3498043 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Completed initialization in 5 ms
+16:43:55,509 3498202 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Request started
+16:43:55,524 3498217 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - verifying To list
+16:43:55,525 3498218 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Set all 'To' recipients
+16:43:55,526 3498219 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - verifying Bcc list
+16:43:55,540 3498233 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Set all 'Bcc' recipients
+16:43:55,540 3498233 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - verifying Cc list
+16:43:55,540 3498233 [http-nio-9090-exec-1] WARN  com.tmt.service.EmailServices  - No valid 'Cc' email addresses provided.
+16:43:55,540 3498233 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Checking all attachments
+16:43:59,698 3502391 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Email successfully sent
+16:43:59,698 3502391 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailServices  - Request completed
+16:43:59,699 3502392 [http-nio-9090-exec-1] INFO  EVR.success  - 2023/11/08 16:43:55|1000|0|2000|120|sayaksingha123@gmail.com|dhrubosinha2@gmail.com|sayaksingha987@gmail.com|no email for Cc|Success Test Case 3|hlo!|[C:\Users\Sayak Singha\Pictures\Screenshot 2023-09-25 162552.png]|true
+16:44:35,936 3538629 [RMI TCP Connection(5)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin  - Application shutdown requested.
+16:44:53,012 0    [main] INFO  com.tmt.EmalApiApplication  - Starting EmalApiApplication using Java 17.0.7 on SAYAKSINGHA with PID 16256 (C:\Users\Sayak Singha\Downloads\EmalApi\target\classes started by Sayak Singha in C:\Users\Sayak Singha\Downloads\EmalApi)
+16:44:53,014 2    [main] INFO  com.tmt.EmalApiApplication  - No active profile set, falling back to 1 default profile: "default"
+16:44:53,932 920  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat initialized with port(s): 9090 (http)
+16:44:54,046 1034 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 970 ms
+16:44:54,426 1414 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat started on port(s): 9090 (http) with context path ''
+16:44:54,438 1426 [main] INFO  com.tmt.EmalApiApplication  - Started EmalApiApplication in 1.801 seconds (JVM running for 2.654)

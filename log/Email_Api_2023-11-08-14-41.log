@@ -1,0 +1,11 @@
+14:41:07,041 476437 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailServices  - Request started
+14:41:07,044 476440 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailServices  - verifying To list
+14:41:07,044 476440 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailServices  - Set all 'To' recipients
+14:41:07,044 476440 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailServices  - verifying Bcc list
+14:41:07,044 476440 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailServices  - Set all 'Bcc' recipients
+14:41:07,045 476441 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailServices  - verifying Cc list
+14:41:07,045 476441 [http-nio-9090-exec-6] WARN  com.tmt.service.EmailServices  - No valid 'Cc' email addresses provided.
+14:41:07,046 476442 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailServices  - Checking all attachments
+14:41:10,938 480334 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailServices  - Email successfully sent
+14:41:10,938 480334 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailServices  - Request completed
+14:41:10,939 480335 [http-nio-9090-exec-6] INFO  EVR.success  - 2023/11/08 14:41:07|1000|0|2000|120|sayaksingha123@gmail.com|dhrubosinha2@gmail.com|sayaksingha987@gmail.com|no email for Cc|Success Test Case 3|hlo!|[C:\Users\Sayak Singha\Pictures\Screenshot 2023-09-25 162552.png]|true

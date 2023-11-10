@@ -1,0 +1,4 @@
+date | response | evrCause | evrReason | request | response
+EventRecord(date=Wed Nov 08 10:56:24 IST 2023, evrEvent=1001, evrCause=1, evrReason=2001, request=EmailRequest(report_id=120, from=sayaksingha123@gmail.com, to=dhrubosinha2@gmail.com, cc=null, bcc=sayaksingha987@gmail.com, subject=null, body_file=hlo, attachment=[C:\Users\Sayak Singha\Pictures\Screenshot 2023-09-25 162552.png]), response=false)
+date | response | evrCause | evrReason | request | response
+EventRecord(date=Wed Nov 08 10:58:17 IST 2023, evrEvent=1001, evrCause=1, evrReason=2001, request=EmailRequest(report_id=120, from=sayaksingha123@gmail.com, to=dhrubosinha2@gmail.com, cc=null, bcc=sayaksingha987@gmail.com, subject=null, body_file=hlo, attachment=[C:\Users\Sayak Singha\Pictures\Screenshot 2023-09-25 162552.png]), response=false)

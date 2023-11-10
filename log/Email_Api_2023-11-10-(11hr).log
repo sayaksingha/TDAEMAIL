@@ -1,0 +1,164 @@
+11:14:39,703 2320062 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Initializing Servlet 'dispatcherServlet'
+11:14:39,707 2320066 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Completed initialization in 1 ms
+11:14:40,220 2320579 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Request started
+11:14:40,237 2320596 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying To list
+11:14:40,252 2320611 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+11:14:40,253 2320612 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:14:40,254 2320613 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+11:14:40,254 2320613 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Cc list
+11:14:40,255 2320614 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - null is invalid
+11:14:40,255 2320614 [http-nio-9090-exec-1] WARN  com.tmt.service.EmailService  - No valid 'Cc' email addresses provided.
+11:14:40,255 2320614 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Checking all attachments
+11:14:45,373 2325732 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Email successfully sent
+11:14:45,373 2325732 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Request completed
+11:14:45,383 2325742 [http-nio-9090-exec-1] INFO  EVR.Success  - 2023/11/10 11:14:40|1000|0|2000|120||dhrubosinha2@gmail.com|sayaksingha987@gmail.com|null|Email from Server|I am server|[C:\Users\Sayak Singha\Pictures\Screenshot 2023-09-25 162552.png]|true
+11:18:37,870 2558229 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - Request started
+11:18:37,870 2558229 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - verifying To list
+11:18:37,871 2558230 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+11:18:37,871 2558230 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:18:37,871 2558230 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+11:18:37,871 2558230 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - verifying Cc list
+11:18:37,871 2558230 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - Set all 'Cc' recipients
+11:18:37,871 2558230 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - Checking all attachments
+11:18:37,871 2558230 [http-nio-9090-exec-3] WARN  com.tmt.service.EmailService  - Attachment file does not exist: D:\Codes & Doc\WTDA_API\pdfGenerator\tayana.png
+11:18:41,743 2562102 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - Email successfully sent
+11:18:41,743 2562102 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - Request completed
+11:18:41,743 2562102 [http-nio-9090-exec-3] INFO  EVR.Success  - 2023/11/10 11:18:37|1000|0|2000|120||poorneshs166@gmail.com|appu144shetty@gmail.com|appu148shetty@gmail.com|Email sir|I am server|[D:\Codes & Doc\WTDA_API\pdfGenerator\tayana.png]|true
+11:19:24,913 2605272 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Request started
+11:19:24,914 2605273 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - verifying To list
+11:19:24,914 2605273 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+11:19:24,914 2605273 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:19:24,914 2605273 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+11:19:24,914 2605273 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - verifying Cc list
+11:19:24,914 2605273 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Set all 'Cc' recipients
+11:19:24,914 2605273 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Checking all attachments
+11:19:28,790 2609149 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Email successfully sent
+11:19:28,790 2609149 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Request completed
+11:19:28,791 2609150 [http-nio-9090-exec-4] INFO  EVR.Success  - 2023/11/10 11:19:24|1000|0|2000|120||poorneshs166@gmail.com|appu144shetty@gmail.com|appu148shetty@gmail.com|Email sir|I am server|[C:\Users\Sayak Singha\Pictures\Screenshot 2023-09-25 162552.png]|true
+11:42:56,652 4017011 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  - Request started
+11:42:56,652 4017011 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  - verifying To list
+11:42:56,653 4017012 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+11:42:56,653 4017012 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:42:56,653 4017012 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  -  is invalid
+11:42:56,654 4017013 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+11:42:56,654 4017013 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  - verifying Cc list
+11:42:56,655 4017014 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  -  is invalid
+11:42:56,655 4017014 [http-nio-9090-exec-6] WARN  com.tmt.service.EmailService  - No valid 'Cc' email addresses provided.
+11:42:56,655 4017014 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  - Checking all attachments
+11:43:00,433 4020792 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  - Email successfully sent
+11:43:00,433 4020792 [http-nio-9090-exec-6] INFO  com.tmt.service.EmailService  - Request completed
+11:43:00,433 4020792 [http-nio-9090-exec-6] INFO  EVR.Success  - 2023/11/10 11:42:56|1000|0|2000|120||poorneshs166@gmail.com|||Email only sir|I am server|[]|true
+11:43:39,918 4060277 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  - Request started
+11:43:39,919 4060278 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  - verifying To list
+11:43:39,919 4060278 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+11:43:39,919 4060278 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:43:39,919 4060278 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  -  is invalid
+11:43:39,919 4060278 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+11:43:39,919 4060278 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  - verifying Cc list
+11:43:39,919 4060278 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  -  is invalid
+11:43:39,919 4060278 [http-nio-9090-exec-7] WARN  com.tmt.service.EmailService  - No valid 'Cc' email addresses provided.
+11:43:39,919 4060278 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  - Checking all attachments
+11:43:43,587 4063946 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  - Email successfully sent
+11:43:43,588 4063947 [http-nio-9090-exec-7] INFO  com.tmt.service.EmailService  - Request completed
+11:43:43,588 4063947 [http-nio-9090-exec-7] INFO  EVR.Success  - 2023/11/10 11:43:39|1000|0|2000|120|appu148shetty@gmail.com|poorneshs166@gmail.com|||Email only sir|I am server|[]|true
+11:44:02,485 4082844 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  - Request started
+11:44:02,486 4082845 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  - verifying To list
+11:44:02,486 4082845 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+11:44:02,486 4082845 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:44:02,486 4082845 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  -  is invalid
+11:44:02,487 4082846 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+11:44:02,487 4082846 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  - verifying Cc list
+11:44:02,487 4082846 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  -  is invalid
+11:44:02,487 4082846 [http-nio-9090-exec-10] WARN  com.tmt.service.EmailService  - No valid 'Cc' email addresses provided.
+11:44:02,487 4082846 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  - Checking all attachments
+11:44:05,755 4086114 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  - Email successfully sent
+11:44:05,756 4086115 [http-nio-9090-exec-10] INFO  com.tmt.service.EmailService  - Request completed
+11:44:05,756 4086115 [http-nio-9090-exec-10] INFO  EVR.Success  - 2023/11/10 11:44:02|1000|0|2000|120||poorneshs166@gmail.com|||Email only sir|I am server|[]|true
+11:44:46,435 4126794 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Request started
+11:44:46,435 4126794 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying To list
+11:44:46,435 4126794 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+11:44:46,435 4126794 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:44:46,435 4126794 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  -  is invalid
+11:44:46,435 4126794 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+11:44:46,435 4126794 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Cc list
+11:44:46,435 4126794 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  -  is invalid
+11:44:46,435 4126794 [http-nio-9090-exec-1] WARN  com.tmt.service.EmailService  - No valid 'Cc' email addresses provided.
+11:44:46,436 4126795 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Checking all attachments
+11:44:49,945 4130304 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Email successfully sent
+11:44:49,946 4130305 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Request completed
+11:44:49,946 4130305 [http-nio-9090-exec-1] INFO  EVR.Success  - 2023/11/10 11:44:46|1000|0|2000|120||poo166@gmail.com|||Email only sir|I am server|[]|true
+11:45:08,185 4148544 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - Request started
+11:45:08,185 4148544 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - verifying To list
+11:45:08,185 4148544 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - poo166 is invalid
+11:45:08,185 4148544 [http-nio-9090-exec-3] WARN  com.tmt.service.EmailService  - No valid 'To' email addresses provided.
+11:45:08,185 4148544 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:45:08,185 4148544 [http-nio-9090-exec-3] INFO  com.tmt.service.EmailService  -  is invalid
+11:45:08,185 4148544 [http-nio-9090-exec-3] WARN  com.tmt.service.EmailService  - No valid 'Bcc' email addresses provided.
+11:45:08,185 4148544 [http-nio-9090-exec-3] INFO  EVR.Success  - 2023/11/10 11:45:08|1001|1|2001|120||poo166|||Email only sir|I am server|[]|false
+11:45:22,216 4162575 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - Request started
+11:45:22,216 4162575 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - verifying To list
+11:45:22,216 4162575 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  -  is invalid
+11:45:22,216 4162575 [http-nio-9090-exec-4] WARN  com.tmt.service.EmailService  - No valid 'To' email addresses provided.
+11:45:22,216 4162575 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:45:22,216 4162575 [http-nio-9090-exec-4] INFO  com.tmt.service.EmailService  -  is invalid
+11:45:22,216 4162575 [http-nio-9090-exec-4] WARN  com.tmt.service.EmailService  - No valid 'Bcc' email addresses provided.
+11:45:22,217 4162576 [http-nio-9090-exec-4] INFO  EVR.Success  - 2023/11/10 11:45:22|1001|1|2001|120|||||Email only sir|I am server|[]|false
+11:45:33,772 4174131 [RMI TCP Connection(73)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin  - Application shutdown requested.
+11:45:48,769 1    [main] INFO  com.tmt.EmalApiApplication  - Starting EmalApiApplication using Java 17.0.7 on SAYAKSINGHA with PID 10320 (C:\Users\Sayak Singha\Downloads\EmalApi\target\classes started by Sayak Singha in C:\Users\Sayak Singha\Downloads\EmalApi)
+11:45:48,771 3    [main] INFO  com.tmt.EmalApiApplication  - No active profile set, falling back to 1 default profile: "default"
+11:45:51,683 2915 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat initialized with port(s): 9090 (http)
+11:45:52,087 3319 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 3256 ms
+11:45:52,909 4141 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat started on port(s): 9090 (http) with context path ''
+11:45:52,920 4152 [main] INFO  com.tmt.EmalApiApplication  - Started EmalApiApplication in 4.625 seconds (JVM running for 9.694)
+11:45:59,585 10817 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Initializing Servlet 'dispatcherServlet'
+11:45:59,586 10818 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Completed initialization in 1 ms
+11:45:59,892 11124 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Request started
+11:45:59,911 11143 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying To list
+11:45:59,913 11145 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - poorneshs166@gmail is invalid
+11:45:59,914 11146 [http-nio-9090-exec-1] WARN  com.tmt.service.EmailService  - No valid 'To' email addresses provided.
+11:45:59,914 11146 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:45:59,914 11146 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  -  is invalid
+11:45:59,914 11146 [http-nio-9090-exec-1] WARN  com.tmt.service.EmailService  - No valid 'Bcc' email addresses provided.
+11:45:59,918 11150 [http-nio-9090-exec-1] INFO  EVR.Success  - 2023/11/10 11:45:59|1001|1|2001|120||poorneshs166@gmail|||Email only sir|I am server|[]|false
+11:53:11,906 443138 [RMI TCP Connection(11)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin  - Application shutdown requested.
+11:53:16,137 0    [main] INFO  com.tmt.EmalApiApplication  - Starting EmalApiApplication using Java 17.0.7 on SAYAKSINGHA with PID 19432 (C:\Users\Sayak Singha\Downloads\EmalApi\target\classes started by Sayak Singha in C:\Users\Sayak Singha\Downloads\EmalApi)
+11:53:16,145 8    [main] INFO  com.tmt.EmalApiApplication  - No active profile set, falling back to 1 default profile: "default"
+11:53:17,080 943  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat initialized with port(s): 9090 (http)
+11:53:17,216 1079 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 1012 ms
+11:53:17,679 1542 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat started on port(s): 9090 (http) with context path ''
+11:53:17,690 1553 [main] INFO  com.tmt.EmalApiApplication  - Started EmalApiApplication in 1.948 seconds (JVM running for 2.822)
+11:53:36,736 20599 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Initializing Servlet 'dispatcherServlet'
+11:53:36,737 20600 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Completed initialization in 1 ms
+11:53:36,866 20729 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Request started
+11:53:36,880 20743 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying To list
+11:53:36,881 20744 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+11:53:36,882 20745 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:53:36,883 20746 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+11:53:36,883 20746 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Cc list
+11:53:36,883 20746 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - null is invalid
+11:53:36,883 20746 [http-nio-9090-exec-1] WARN  com.tmt.service.EmailService  - No valid 'Cc' email addresses provided.
+11:53:36,883 20746 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Checking all attachments
+11:53:40,303 24166 [http-nio-9090-exec-1] ERROR com.tmt.service.EmailService  - Error in email sending process: Authentication failed; nested exception is javax.mail.AuthenticationFailedException: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials jx13-20020a17090b46cd00b00274b9dd8519sm799090pjb.35 - gsmtp
+
+11:53:40,304 24167 [http-nio-9090-exec-1] INFO  EVR.Success  - 2023/11/10 11:53:36|1001|1|2001|120||dhrubosinha2@gmail.com|sayaksingha987@gmail.com|null|Email from Server|I am server|[C:\Users\Sayak Singha\Pictures\Screenshot 2023-09-25 162552.png]|false
+11:58:33,958 317821 [RMI TCP Connection(8)-127.0.0.1] INFO  org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin  - Application shutdown requested.
+11:58:36,316 0    [main] INFO  com.tmt.EmalApiApplication  - Starting EmalApiApplication using Java 17.0.7 on SAYAKSINGHA with PID 7988 (C:\Users\Sayak Singha\Downloads\EmalApi\target\classes started by Sayak Singha in C:\Users\Sayak Singha\Downloads\EmalApi)
+11:58:36,318 2    [main] INFO  com.tmt.EmalApiApplication  - No active profile set, falling back to 1 default profile: "default"
+11:58:37,114 798  [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat initialized with port(s): 9090 (http)
+11:58:37,228 912  [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext  - Root WebApplicationContext: initialization completed in 855 ms
+11:58:37,597 1281 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer  - Tomcat started on port(s): 9090 (http) with context path ''
+11:58:37,609 1293 [main] INFO  com.tmt.EmalApiApplication  - Started EmalApiApplication in 1.629 seconds (JVM running for 2.47)
+11:59:12,813 36497 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Initializing Servlet 'dispatcherServlet'
+11:59:12,814 36498 [http-nio-9090-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet  - Completed initialization in 1 ms
+11:59:12,943 36627 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Request started
+11:59:12,957 36641 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying To list
+11:59:12,959 36643 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'To' recipients
+11:59:12,960 36644 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Bcc list
+11:59:12,960 36644 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'Bcc' recipients
+11:59:12,960 36644 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - verifying Cc list
+11:59:12,961 36645 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Set all 'Cc' recipients
+11:59:12,961 36645 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Checking all attachments
+11:59:18,530 42214 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Email successfully sent
+11:59:18,531 42215 [http-nio-9090-exec-1] INFO  com.tmt.service.EmailService  - Request completed
+11:59:18,533 42217 [http-nio-9090-exec-1] INFO  EVR.Success  - 2023/11/10 11:59:12|1000|0|2000|120||dhrubosinha2@gmail.com|sayaksingha987@gmail.com|poorneshs166@gmail.com|Email from Server|I am server|[C:\Users\Sayak Singha\Pictures\Screenshot 2023-09-25 162552.png]|true
